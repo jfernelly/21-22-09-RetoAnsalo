@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    <title>RETO ÁNSALO</title>
+</head>
+
+<body id="body">
+    <div class="container">
+        <div class="text-center">
+        <h1>RETO ÁNSALO</h1>
+        </div>
+
+        <form>
+            <!-- inputs no editables -->
+            <div class="form-group row">
+                <label for="letras" class="col-sm-2 col-form-label">Letras</label>
+                <div class="col-sm-10">
+                    <input readonly type="text" class="form-control" id="letras">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="numeros" class="col-sm-2 col-form-label">Números</label>
+                <div class="col-sm-10">
+                    <input readonly type="text" class="form-control" id="numeros">
+                </div>
+            </div>
+
+            <!-- toggle switch / check box -->
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="retro">
+                <label class="custom-control-label" for="retro">Retro Mode</label>
+            </div>
+
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="dark">
+                <label class="custom-control-label" for="dark">Dark Mode</label>
+            </div>
+        </form>
+        <!-- end form -->
+
+        <!-- teclado  -->
+        <div class="text-center mt-3" id="teclado">
+
+            <div class="row"><!-- Línea 1 -->   
+                <div class="col-12">
+                    <button class="btn btn-light rounded-circle key"  id="a1">A-1</button>
+                    <button class="btn btn-light rounded-circle key" id="b2">B-2</button>
+                    <button class="btn btn-light rounded-circle key" id="c3">C-3</button>
+                </div> 
+            </div>
+
+            <div class="row"><!-- Línea 2 -->
+                <div class="col-12">
+                    <button class="btn btn-light rounded-circle key" id="d4">D-4</button>
+                    <button class="btn btn-light rounded-circle key" id="e5">E-5</button>
+                    <button class="btn btn-light rounded-circle key" id="f6">F-6</button>
+                </div>
+            </div>
+
+            <div class="row"><!-- Línea 3 -->
+               <div class="col-12">
+                <button class="btn btn-light rounded-circle key" id="g7">G-7</button>
+                <button class="btn btn-light rounded-circle key" id="h8">H-8</button>
+                <button class="btn btn-light rounded-circle key" id="i9">I-9</button>
+               </div>
+            </div>
+
+            <div class="row"><!-- Línea 4 -->
+                <div class="col-12">
+                    <button class="btn btn-light rounded-circle key" id="todas">Ingresa Letras</button>
+                    <button class="btn btn-light rounded-circle key"id="j0">J-0</button>
+                    <button class="btn btn-light rounded-circle key" id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <!-- END TECLADO -->
+
+        <!-- Footer -->
+        <footer class="page-footer font-small blue fixed-bottom bg-white border-top">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="#">José Fernelly</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
